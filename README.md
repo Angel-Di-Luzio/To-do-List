@@ -12,6 +12,8 @@ Git + GitHub.
 Descarga el codigo en el apartado de "code" en github y abre el archivo ".html"
 y con eso bastaría.
 
+Tip: Puedes tachar una tarea haciendo click en el texto.
+
 ## Nota!
 
 Falta el sistema de guardado local, Estaré trabajando próximamente en ello!
