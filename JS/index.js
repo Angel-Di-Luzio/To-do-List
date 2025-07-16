@@ -17,6 +17,9 @@ btn.addEventListener("click", () => {
         //Boton eliminar
         const btnBorrar = document.createElement("button");
         btnBorrar.textContent = "❌";
+        btnBorrar.style.width = "30px";
+        btnBorrar.style.textAlign = "end";
+        btnBorrar.style.padding = "0.5rem";
         btnBorrar.style.marginLeft = "10px";
         btnBorrar.style.border = "none";
         btnBorrar.style.background = "transparent";
