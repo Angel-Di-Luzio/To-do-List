@@ -3,6 +3,7 @@ const btn = document.getElementById("add");
 const task = document.getElementById("task");
 const list = document.getElementById("list");
 
+//Evento al agregar
 btn.addEventListener("click", () => {
     const taskText = task.value.trim();
     if (taskText !== ""){
@@ -30,9 +31,13 @@ btn.addEventListener("click", () => {
             list.removeChild(li);
         });
 
+        //Mostrar en el DOM
         li.appendChild(span);
         li.appendChild(btnBorrar);
         list.appendChild(li);
+
+        //Reseteo del input
         task.value = "";
     }
 });
+
