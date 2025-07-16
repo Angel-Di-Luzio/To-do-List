@@ -13,6 +13,7 @@ body {
     padding: 2rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     width: 300px;
+    text-align: center;
 }
 
 input{
@@ -40,4 +41,18 @@ button:hover {
 ul {
     list-style: none;
     padding: 0;
+}
+
+li {
+    background-color: #eee;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: gray;
 }
