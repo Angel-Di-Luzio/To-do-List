@@ -7,18 +7,19 @@ btn.addEventListener("click", () => {
     const taskText = task.value.trim();
     if (taskText !== ""){
         const li = document.createElement("li");
-        li.textContent = taskText;
+        const span = document.createElement("span");
+        span.textContent = taskText;
 
         //Marcar como completa
-        li.addEventListener("click", () => {
-            li.classList.toggle("completada");
+        span.addEventListener("click", () => {
+            span.classList.toggle("completada");
         })
 
         //Boton eliminar
         const btnBorrar = document.createElement("button");
         btnBorrar.textContent = "❌";
         btnBorrar.style.width = "30px";
-        btnBorrar.style.textAlign = "end";
+        btnBorrar.style.textAlign = "center";
         btnBorrar.style.padding = "0.5rem";
         btnBorrar.style.marginLeft = "10px";
         btnBorrar.style.border = "none";
@@ -29,6 +30,7 @@ btn.addEventListener("click", () => {
             list.removeChild(li);
         });
 
+        li.appendChild(span);
         li.appendChild(btnBorrar);
         list.appendChild(li);
         task.value = "";
