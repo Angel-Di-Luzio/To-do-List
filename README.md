@@ -1,4 +1,4 @@
-### To-do List
+# To-do List
 
 Es un software básico que te permite agregar y eliminar tareas que tu mismo quieras guardar.
 
@@ -7,11 +7,11 @@ Es un software básico que te permite agregar y eliminar tareas que tu mismo qui
 HTML, CSS y JavaScript.
 Git + GitHub.
 
-# Uso
+## Uso
 
 Descarga el codigo en el apartado de "code" en github y abre el archivo ".html"
 y con eso bastaría.
 
-# Nota!
+## Nota!
 
 Falta el sistema de guardado local, Estaré trabajando próximamente en ello!
